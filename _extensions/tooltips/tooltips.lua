@@ -11,6 +11,7 @@ return {
     if not quarto.doc.has_bootstrap() then
       return pandoc.Null()
     end
+    ensure_html_deps()
 
     local tooltip = pandoc.utils.stringify(kwargs["tooltip"])
     local a_block =
