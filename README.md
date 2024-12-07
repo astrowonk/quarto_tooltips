@@ -19,7 +19,9 @@ The goal of this extension is to make it easy to include bootstrap tooltips. Thi
 What is a tooltip? {{<tooltips tooltip="This is a tooltip" >}}
 ```
 
-For now, the tool tip is always attached to a bootstrap info icon.
+For now, the tool tip is always attached to a bootstrap info icon. It'll look like this:
+
+<img width="247" alt="Screenshot 2024-12-07 at 12 59 03 PM" src="https://github.com/user-attachments/assets/a158bb29-f6c6-4aa8-93cd-0f210da41a1a">
 
 ## Example
 
