@@ -21,6 +21,8 @@ The goal of this extension is to make it easy to include bootstrap tooltips. Thi
 What is a tooltip? {{<tooltips tooltip="This is a tooltip" >}}
 ```
 
+For now, the tool tip is always attached to a bootstrap info icon.
+
 ## Example
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
