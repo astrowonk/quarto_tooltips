@@ -1,4 +1,4 @@
-# Test Extension For Quarto
+# Bootstrap Tooltips Extension For Quarto
 
 Easily add bootstrap tooltips to Quarto HTML documents.
 
