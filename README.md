@@ -18,7 +18,7 @@ If you're using version control, you will want to check in this directory.
 The goal of this extension is to make it easy to include bootstrap tooltips. This is accomplished with:
 
 ```{shortcodes=false}
-What is a tooltip? {{< tooltips tooltip="This is a tooltip" >}}
+What is a tooltip? {{<tooltips tooltip="This is a tooltip" >}}
 ```
 
 ## Example
