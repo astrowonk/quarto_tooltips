@@ -8,6 +8,10 @@ end
 
 return {
   ['tooltips'] = function(args, kwargs, meta)
+    if not quarto.doc.has_bootstrap() then
+      return pandoc.Null()
+    end
+
     local tooltip = pandoc.utils.stringify(kwargs["tooltip"])
     local a_block =
         ' <a href="#" data-bs-toggle="tooltip" data-bs-title="' ..

@@ -21,7 +21,7 @@ The goal of this extension is to make it easy to include bootstrap tooltips. Thi
 What is a tooltip? {{<tooltips tooltip="This is a tooltip" >}}
 ```
 
-As you can see in the example, you must initialize the tooltips in your YAML header for this to work:
+As shown in the `example.qmd`, you must initialize the tooltips in your YAML header for this to work:
 
 ```{yaml}
 include-after-body:
