@@ -2,7 +2,7 @@ local function ensure_html_deps()
   quarto.doc.add_html_dependency({
     name = 'load_tooltips',
     version = '1.0.0',
-    scripts = { "load_tooltips.js" }
+    scripts = { { path = "load_tooltips.js", afterBody = true } }
   })
 end
 
