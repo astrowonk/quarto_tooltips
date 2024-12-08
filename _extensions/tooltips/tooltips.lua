@@ -14,9 +14,15 @@ return {
     ensure_html_deps()
 
     local tooltip = pandoc.utils.stringify(kwargs["tooltip"])
+    local linktext = pandoc.utils.stringify(kwargs["text"])
+    if linktext ~= '' then
+      thetext = linktext
+    else
+      thetext = '<i class="bi bi-info-circle"></i></i>'
+    end
     local a_block =
         ' <a href="#" data-bs-toggle="tooltip" data-bs-title="' ..
-        tooltip .. '"><i class="bi bi-info-circle"></i></i></a>'
+        tooltip .. '">' .. thetext .. '</a>'
 
     return pandoc.RawInline('html', a_block)
   end
