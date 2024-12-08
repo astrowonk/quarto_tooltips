@@ -13,6 +13,14 @@ produces:
 
 What is a tooltip? {{<tooltips tooltip="This is a tooltip" >}}
 
+
+You can also have the link on text not the info icon.:
+
+```{shortcodes=false}
+This is a tooltip on {{<tooltips tooltip="This is a tooltip on text." text='some text'>}}.
+```
+
+
 This is a tooltip on {{<tooltips tooltip="This is a tooltip on text." text='some text'>}}.
 
 
