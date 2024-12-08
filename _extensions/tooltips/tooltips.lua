@@ -15,8 +15,11 @@ return {
 
     local tooltip = pandoc.utils.stringify(kwargs["tooltip"])
     local linktext = pandoc.utils.stringify(kwargs["text"])
+    local icon = pandoc.utils.stringify(kwargs["icon"])
     if linktext ~= '' then
       thetext = linktext
+    elseif icon ~= '' then
+      thetext = '<i class="bi bi-' .. icon .. '"></i></i>'
     else
       thetext = '<i class="bi bi-info-circle"></i></i>'
     end

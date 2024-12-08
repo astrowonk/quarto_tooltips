@@ -14,17 +14,27 @@ produces:
 What is a tooltip? {{<tooltips tooltip="This is a tooltip" >}}
 
 
-You can also have the link on text not the info icon.:
+You can also have the link on text not the info icon:
 
 ```{shortcodes=false}
 This is a tooltip on {{<tooltips tooltip="This is a tooltip on text." text='some text'>}}.
 ```
 
-
 This is a tooltip on {{<tooltips tooltip="This is a tooltip on text." text='some text'>}}.
 
 
-For now, the tool tip is always attached to a bootstrap info icon.
+Or pick a different icon. The default is `info-circle`:
+
+```{shortcodes=false}
+
+There will be a tooltip on this icon: {{<tooltips tooltip="This is a tooltip on info-square" icon='info-square'>}}.
+
+```
+
+There will be a tooltip on a square info icon: {{<tooltips tooltip="This is a tooltip on info-square" icon='info-square'>}}.
+
+
+
 
 
 
